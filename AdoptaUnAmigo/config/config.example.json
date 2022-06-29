@@ -1,0 +1,27 @@
+{
+    "development": {
+      "username": "Your user",
+      "password": "Your password",
+      "database": "Your database's name",
+      "host": "Your host",
+      "dialect": "mysql",
+      "jwt_secret": "Your jwt password"
+    },
+    "test": {
+      "username": "Your user",
+      "password": "Your password",
+      "database": "Your database's name",
+      "host": "Your host",
+      "dialect": "mysql",
+      "jwt_secret": "Your jwt password"
+    },
+    "production": {
+      "username": "Your user",
+      "password": "Your password",
+      "database": "Your database's name",
+      "host": "Your host",
+      "dialect": "mysql",
+      "jwt_secret": "Your jwt password"
+    }
+  }
+  

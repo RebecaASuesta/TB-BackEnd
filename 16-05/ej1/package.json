@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio1",
+  "version": "1.0.0",
+  "description": "- Crear una carpeta con el nombre ej1\r - Inicializar un proyecto de Node.js utilizando NPM dentro de la carpeta ej1\r - El nombre del proyecto tiene que ser Ejercicio 1. \r - Crear un archivo index.js\r - Configurar el proyecto para que al hacer npm start se ejecute el código del archivo index.js. Como resultado debe mostrar por consola el siguiente mensaje:\r     - Mi primer script en The Bridge!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebecaASuesta/16-05.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RebecaASuesta/16-05/issues"
+  },
+  "homepage": "https://github.com/RebecaASuesta/16-05#readme"
+}
