@@ -31,6 +31,10 @@ const UserSchema = new mongoose.Schema({
     likeIds: [{
         type: ObjectId,
         ref: 'Post'
+    }],
+    dislikeIds: [{
+        type: ObjectId,
+        ref: 'Post'
     }]
 }, { timestamps: true });
 
