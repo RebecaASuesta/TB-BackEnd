@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 require("dotenv").config();
 const jwt_secret = process.env.JWT_SECRET;
 const bcrypt = require ('bcryptjs');
-const transporter = require("../config/nodemailer")
+// const transporter = require("../config/nodemailer")
 
 const UserController = {
     async create(req, res, next) {
@@ -63,7 +63,7 @@ const UserController = {
             if (user.tokens.length > 4) user.tokens.shift();
             user.tokens.push(token);
             await user.save();
-            res.send({ message: 'Bienvenid@ a esta nuestra comunidad, ' + user.name, user, token });
+            res.send({ message: 'Bienvenid@ a ésta nuestra comunidad, ' + user.name, user, token });
         } catch (error) {
             console.error(error);
         }
